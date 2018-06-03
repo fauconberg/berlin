@@ -1,0 +1,222 @@
+/* General formating start */
+
+html {
+ height: 100%;
+ font-size: 16px;
+}
+
+body {
+height: 100%;
+background-color: black
+}
+
+@media screen and (max-width: 600px) {
+body {
+font-size: 12px;
+}
+}
+
+/* General formating end*/
+
+
+/* Navigation bar start*/
+nav {
+  position: fixed;
+  background: black;
+  width:100%;
+  Bottom:0;
+  z-index: 99999;
+
+}
+
+button {
+  background: black;
+  border: black;
+  margin: 5px 5px 10px 5px;
+  color: white;
+  font-size: 180%;
+  font-family: 'Bangers', cursive;
+  outline: none !important;
+  border:0;
+}
+
+button:hover {
+ background: #1A1A1A;
+  }
+
+
+a {
+  color: white;
+  active: white;
+}
+
+a:hover {
+ color: white ;
+}
+
+#Menutitle {
+  float: left;
+  color: white;
+  margin: 5px;
+  font-size: 180%;
+  font-family: 'Bangers', cursive;
+}
+
+@media screen and (max-width: 480px) {
+#Menutitle {
+  display: none;
+}
+
+}
+  
+li {
+  list-style-type: none;
+  float: right;
+  display: inline block;
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 600px) {
+li {
+  list-style-type: none;
+  float: right;
+  padding-right: 1.3em;
+  padding-left:0px;
+}
+}
+
+@media screen and (max-width: 355px) {
+li {
+  list-style-type: none;
+  float: right;
+  padding-right: 0.8em;
+  padding-left:0px;
+  font-size: 10px;
+}
+}
+
+/* Navigation bar end*/
+
+/* Slide 1 - ABOUT PAGE start */
+
+.Slide1
+{
+  background-image:url(https://i.imgur.com/Gha4IDr.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CenterFormat {
+  padding: 10%;
+}
+
+
+.AboutPage
+{
+  color: black;
+  background: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Amatic SC', cursive;
+  padding: 5%;
+  border-radius: 25px;
+}
+
+
+/* Slide 1 - ABOUT PAGE end */
+
+/* Slide 2 - ABOUT PAGE start */
+
+.Slide2
+{
+  background: white;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.PortPageHead {
+  font-family: 'Amatic SC', cursive;
+  font-size: 400%;
+  margin: 5px 0px 0px 10px;
+}
+
+.PortPageBody {
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%;
+  margin: 5px 0px 0px 10px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+figure {
+  border: solid white 1px;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  background: black;
+  padding: 5px 5px 10px 5px;
+  text-align: center;
+  vertical-align: text-bottom;
+  margin: 1em;
+}
+
+
+/* Slide 3 - PORTFOLIO start */
+
+.Slide3
+{
+  background-image:url(https://i.imgur.com/ob4NksN.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+@media screen and (max-width: 600px) {
+.contactpage {
+ font-size: 12px;
+}
+}
+
+.contactpage
+{
+  color: black;
+  background: rgba(255, 255, 255, 0.85);
+  text-align: left;
+  font-size: 200%;
+  font-family: 'Amatic SC', cursive;
+  padding: 5%;
+  border-radius: 25px;
+  float: right;
+  padding: 2em 2em 2em 2em;
+  margin: 1em 1em 6em 1em;
+}
+
+
+.twitter {
+  background-color: #55ACEE;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 0.3em;
+  outline: none !important;
+  border:0;
+}
+
+.github {
+  background-color: #171515;
+  font-size: 24px;
+  border-radius: 10px; 
+  margin: 0.3em;
+  outline: none !important;
+  border:0;
+}
+
+/* Slide 3 - PORTFOLIO end */
